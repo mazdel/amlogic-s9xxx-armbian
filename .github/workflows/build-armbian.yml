@@ -166,6 +166,7 @@ on:
         options:
           - 5.4.y
           - 5.10.y
+          - 5.10.220
           - 5.15.y
           - 6.1.y
           - 6.6.y
@@ -217,10 +218,10 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - daylee
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Jakarta
   ROOTFS_SCRIPT: compile-kernel/tools/script/armbian_rootfs.sh
 
 jobs:
